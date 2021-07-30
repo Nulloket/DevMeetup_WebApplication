@@ -7,36 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc60278-6088-45a8-ad0c-c6a7f4512d94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP/Config.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP/DevMeeting.IDP.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Entities/Meetup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Repositories/MeetupsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/AutoMapperProfile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/Meetup/MeetupCreate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/Meetup/MeetupModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/SettingModels/DatabaseSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DevMeeting/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,8 +140,17 @@
       <workItem from="1627600256082" duration="7896000" />
       <workItem from="1627651480614" duration="6288000" />
       <workItem from="1627664513024" duration="2609000" />
-      <workItem from="1627678204719" duration="619000" />
+      <workItem from="1627678204719" duration="2345000" />
+      <workItem from="1627681844294" duration="307000" />
     </task>
+    <task id="LOCAL-00001" summary="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs">
+      <created>1627680139681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627680139681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
