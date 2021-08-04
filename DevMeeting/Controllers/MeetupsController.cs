@@ -54,7 +54,6 @@ namespace DevMeeting.Controllers
         [HttpPost]
         public async Task<ActionResult<Meetup>> Create(MeetupCreate model)
         {
-            await WriteOutIdentityInformation();
             if (!ModelState.IsValid)
                 return BadRequest();
             var mappedMeetup = _mapper.Map<Meetup>(model);
@@ -68,7 +67,7 @@ namespace DevMeeting.Controllers
         public async Task<ActionResult<MeetupModel>> Edit(MeetupModel model)
         {
             var mappedMeetup = _mapper.Map<Meetup>(model);
-            var response = await _meetupsRepository.ReplaceMeetupById(model.MeetupId, mappedMeetup);
+            var response = await _meetupsRepository.ReplaceMeetup(mappedMeetup);
             if (response)
                 return model;
             return NotFound();
@@ -80,20 +79,6 @@ namespace DevMeeting.Controllers
             if (response)
                 return NoContent();
             return NotFound();
-        }
-
-        public async Task WriteOutIdentityInformation()
-        {
-            var identityToken = await HttpContext
-                .GetTokenAsync(OpenIdConnectParameterNames.IdToken);
-            
-            _logger.LogInformation($"Identity Token:  {identityToken}");
-
-            foreach (var claim in User.Claims)
-            {
-                _logger.LogInformation($"Claim type: {claim.Type} - Claim value: {claim.Value}");
-            }
-            
         }
     }
 }

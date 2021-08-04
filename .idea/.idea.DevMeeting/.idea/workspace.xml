@@ -4,10 +4,37 @@
     <projectFile>DevMeeting.csproj</projectFile>
     <projectFile>DevMeeting.IDP/DevMeeting.IDP.csproj</projectFile>
     <projectFile>DevMeeting/DevMeeting.csproj</projectFile>
+    <projectFile>DevMeetin.IDP.Client/DevMeetin.IDP.Client.csproj</projectFile>
+    <projectFile>DevMeeting.IDP.Client/DevMeeting.IDP.Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc60278-6088-45a8-ad0c-c6a7f4512d94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP.Client/DevMeeting.IDP.Client.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting.IDP.Client/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Entities/User/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Entities/User/UserRole.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Repositories/RoleRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Data/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/Account/SignIn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/Account/SignUp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/BaseRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/Response.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DevMeeting/Models/SettingModels/JwtSettings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DevMeeting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting.IDP/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting.IDP/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting.IDP/DevMeeting.IDP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting.IDP/DevMeeting.IDP.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting.IDP/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting.IDP/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting.IDP/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting.IDP/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Data/Repositories/MeetupsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Data/Repositories/MeetupsRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Models/Meetup/MeetupCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Models/Meetup/MeetupCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Models/SettingModels/DatabaseSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Models/SettingModels/DatabaseSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevMeeting/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/DevMeeting/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +49,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DevMeeting/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevMeeting.IDP.Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1D8DC58B-0E77-41C7-94ED-35D330ADA41F/61/OkResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevMeeting.IDP/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevMeeting/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7A3C999E-350E-4A51-B6EF-D36311B737D2/0/OpenIdConnectScope.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8CD1C356-F549-42E6-8DC6-B840A48F24F3/f2/bb925362/FilterDefinitionBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/CB42D0E0-3AF0-4DFF-80D5-457F947998F8/120/IdentityResources.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DevMeeting/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -49,12 +90,35 @@
       <option value="$PROJECT_DIR$/Utilities/MongoDb.cs" />
       <option value="$PROJECT_DIR$/Data/Repositories/MeetupsRepository.cs" />
       <option value="$PROJECT_DIR$/Controllers/MeetupsController.cs" />
-      <option value="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" />
-      <option value="$PROJECT_DIR$/DevMeeting.IDP/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" />
-      <option value="$PROJECT_DIR$/DevMeeting/Startup.cs" />
-      <option value="$PROJECT_DIR$/DevMeeting.IDP/Config.cs" />
       <option value="$PROJECT_DIR$/DevMeeting.IDP/Startup.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting.IDP/Config.cs" />
+      <option value="$PROJECT_DIR$/DevMeetin.IDP.Client/Program.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting.IDP/Properties/launchSettings.json" />
+      <option value="$PROJECT_DIR$/DevMeeting.IDP.Client/Program.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Entities/User.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Repositories/GeneralRepository.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/AccountManagement.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/SettingModels/DatabaseSettings.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Repositories/MeetupsRepository.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/AccountManagement/AccountManagement.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Repositories/RoleRepository.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/BaseRequest.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/Meetup/MeetupCreate.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/Account/SignIn.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Repositories/UserRepository.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/Response.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Controllers/AccountController.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/Account/SignUp.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/appsettings.json" />
+      <option value="$PROJECT_DIR$/DevMeeting/Models/SettingModels/JwtSettings.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/AccountManagement/UserStorage.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/AccountManagement/RoleStore.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Utilities/IdentityStorage/UserStorage.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Entities/User/UserRole.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Data/Entities/User/User.cs" />
+      <option value="$PROJECT_DIR$/DevMeeting/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vxgTmIQd3N5bwsIg2sULN71LTF" />
@@ -69,12 +133,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Redshift" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/DevMeeting.IDP/DevMeeting.IDP.csproj" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.DevMeeting">
+    <configuration name="DevMeeting.IDP.Client" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DevMeeting.IDP.Client/bin/Debug/net5.0/DevMeeting.IDP.Client" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DevMeeting.IDP.Client/bin/Debug/net5.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DevMeeting.IDP.Client/DevMeeting.IDP.Client.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net5.0" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="DevMeeting" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
@@ -90,24 +173,9 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="DevMeeting: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
-      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
-      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="USE_MONO" value="0" />
-      <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
-      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
-      <option name="SEND_DEBUG_REQUEST" value="1" />
-      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <method v="2">
-        <option name="Build" />
-      </method>
-    </configuration>
     <configuration name="DevMeeting.IDP: SelfHost" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DevMeeting.IDP/DevMeeting.IDP.csproj" />
-      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
       <option name="LAUNCH_PROFILE_NAME" value="SelfHost" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -120,10 +188,27 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Run All" type="LaunchSettings" factoryName=".NET Launch Settings Profile" singleton="false">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/DevMeeting/DevMeeting.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net5.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="DevMeeting" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+        <option name="RunConfigurationTask" enabled="true" run_configuration_name="DevMeeting.IDP: SelfHost" run_configuration_type="LaunchSettings" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.DevMeeting" />
       <item itemvalue=".NET Launch Settings Profile.DevMeeting.IDP: SelfHost" />
-      <item itemvalue=".NET Launch Settings Profile.DevMeeting: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.Run All" />
+      <item itemvalue=".NET Project.DevMeeting.IDP.Client" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -141,7 +226,11 @@
       <workItem from="1627651480614" duration="6288000" />
       <workItem from="1627664513024" duration="2609000" />
       <workItem from="1627678204719" duration="2345000" />
-      <workItem from="1627681844294" duration="307000" />
+      <workItem from="1627681844294" duration="1672000" />
+      <workItem from="1627744631038" duration="1338000" />
+      <workItem from="1627766999367" duration="1823000" />
+      <workItem from="1627830227790" duration="1504000" />
+      <workItem from="1627834606459" duration="38549000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs">
       <created>1627680139681</created>
@@ -150,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627680139681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Youp">
+      <created>1627682274224</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627682274224</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +259,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -173,33 +281,21 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing Project&#10;1- Added MongoDb.cs&#10;2- Added Repositories and model&#10;3- Added MeetupsController.cs" />
+    <MESSAGE value="Youp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Youp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs</url>
-          <line>56</line>
-          <properties documentPath="$PROJECT_DIR$/DevMeeting/Controllers/MeetupsController.cs" initialLine="56" containingFunctionPresentation="method 'Create'">
-            <startOffsets>
-              <option value="1888" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1924" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs</url>
-          <line>174</line>
+          <line>170</line>
           <properties documentPath="$PROJECT_DIR$/DevMeeting/Utilities/MongoDb.cs" initialLine="173" containingFunctionPresentation="method 'GetDocumentsAsync'">
             <startOffsets>
-              <option value="7407" />
+              <option value="7232" />
             </startOffsets>
             <endOffsets>
-              <option value="7465" />
+              <option value="7290" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
@@ -229,6 +325,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DevMeeting.IDP.Client/Program.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/DevMeeting.IDP.Client/Program.cs" initialLine="20" containingFunctionPresentation="method 'Main'">
+            <startOffsets>
+              <option value="744" />
+            </startOffsets>
+            <endOffsets>
+              <option value="762" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

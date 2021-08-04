@@ -5,6 +5,8 @@ namespace DevMeeting.Models.SettingModels
         string DatabaseName { get; set; }
         string ConnectionString { get; set; }
         string MeetupsCollection { get; set; }
+        string UsersCollection { get; set; }
+        string RoleCollection { get; set; }
     }
 
     public class DatabaseSettings : IDatabaseSettings
@@ -12,5 +14,8 @@ namespace DevMeeting.Models.SettingModels
         public string DatabaseName { get; set; }
         public string ConnectionString { get; set; }
         public string MeetupsCollection { get; set; }
+        public string UsersCollection { get; set; }
+        
+        public string RoleCollection { get; set; }
     }
 }

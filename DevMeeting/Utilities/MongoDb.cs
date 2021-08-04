@@ -17,7 +17,6 @@ namespace DevMeeting.Utilities
         Task<List<TDocument>> GetAllDocumentsAsync<TDocument>(string collectionName);
         Task<TDocument> GetDocumentAsync<TDocument>(FilterDefinition<TDocument> filter,
             string collectionName,
-            SortDefinition<TDocument>? sort = null,
             ProjectionDefinition<TDocument>? projection = null);
         Task<List<TDocument>> GetDocumentsAsync<TDocument>(string collectionName,
             FilterDefinition<TDocument> filter,
@@ -153,13 +152,10 @@ namespace DevMeeting.Utilities
 
         public async Task<TDocument> GetDocumentAsync<TDocument>(FilterDefinition<TDocument> filter,
             string collectionName,
-            SortDefinition<TDocument>? sort = null,
             ProjectionDefinition<TDocument>? projection = null)
         {
             var collection = GetCollection<TDocument>(collectionName);
             var document = collection.Find(filter);
-            if (sort is not null)
-                document.Sort(sort);
             if (projection is not null)
                 document.Project(projection);
             return await document.SingleAsync();

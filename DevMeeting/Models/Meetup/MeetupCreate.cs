@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DevMeeting.Models.Meetup
 {
-    public class MeetupCreate
+    public class MeetupCreate : BaseRequest
     {
         [Required]
         [MaxLength(100)]

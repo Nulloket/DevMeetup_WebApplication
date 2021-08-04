@@ -17,7 +17,7 @@ namespace DevMeeting.Data.Repositories
         Task<List<Meetup>> GetMeetupsByPage(int pageIndex = 0, int perPage = int.MaxValue);
         Task<Meetup> GetMeetupsByOwnerId(string id);
         Task<bool> RemoveMeetupById(string id);
-        Task<bool> ReplaceMeetupById(string id, Meetup model);
+        Task<bool> ReplaceMeetup(Meetup model);
     }
 
     public class MeetupsRepository : IMeetupsRepository
@@ -34,7 +34,7 @@ namespace DevMeeting.Data.Repositories
 
         public async Task<Meetup> CreateMeetup(Meetup model)
         {
-            model.CreationDate = DateTime.Now;
+            model.CreationDate = DateTime.UtcNow;
             var response = await _db.InsertDocumentAsync<Meetup>(model, _collectionName);
             return response;
         }
@@ -42,8 +42,7 @@ namespace DevMeeting.Data.Repositories
         public async Task<Meetup> GetMeetupById(string id)
         {
             var filter = Builders<Meetup>.Filter.Where(meetup => meetup.MeetupId == id);
-            var sort = Builders<Meetup>.Sort.Descending(meetup => meetup.CreationDate);
-            var response = await _db.GetDocumentAsync(filter, _collectionName, sort);
+            var response = await _db.GetDocumentAsync(filter, _collectionName);
             return response;
         }
 
@@ -73,8 +72,7 @@ namespace DevMeeting.Data.Repositories
         public async Task<Meetup> GetMeetupsByOwnerId(string id)
         {
             var filter = Builders<Meetup>.Filter.Where(meetup => meetup.UserId == id);
-            var sort = Builders<Meetup>.Sort.Descending(meetup => meetup.CreationDate);
-            var response = await _db.GetDocumentAsync(filter, _collectionName, sort);
+            var response = await _db.GetDocumentAsync(filter, _collectionName);
             return response;
         }
 
@@ -85,11 +83,12 @@ namespace DevMeeting.Data.Repositories
             return response;
         }
         
-        public async Task<bool> ReplaceMeetupById(string id, Meetup model)
+        public async Task<bool> ReplaceMeetup(Meetup model)
         {
-            var filter = Builders<Meetup>.Filter.Where(meetup => meetup.MeetupId == id);
+            var filter = Builders<Meetup>.Filter.Where(meetup => meetup.MeetupId == model.MeetupId);
             var response = await _db.ReplaceDocument(filter, model, _collectionName);
             return response;
         }
+
     }
 }
